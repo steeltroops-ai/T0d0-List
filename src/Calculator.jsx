@@ -29,7 +29,7 @@ const math = (y, z, symb) => symb === "+" ? y + z : symb === "-" ? y - z : symb 
 const zeroDivisionError = "Oops! it's imposible to divide with 0";
 
 
-const App = () => {
+const Calculator = () => {
     let [calc, setCalc] = useState({
         symb: "",
         number: 0,
@@ -163,4 +163,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Calculator;
