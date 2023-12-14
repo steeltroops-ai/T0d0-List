@@ -4,22 +4,6 @@ import App from "./App";
 import "./index.css"
 import App from "./Calculator";
 
-const ToggleComponent = () => {
-  const [isAppVisible, setIsAppVisible] = useState(true);
-
-  const toggleComponent = () => {
-    setIsAppVisible(!isAppVisible);
-  };
-
-  return (
-    <div>
-      <button onClick={toggleComponent}>Toggle Component</button>
-      {isAppVisible ? <App /> : <Calculator />}
-    </div>
-  );
-};
-
-
 
 
 const App = () => {
